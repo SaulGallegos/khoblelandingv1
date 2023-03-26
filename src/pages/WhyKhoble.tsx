@@ -9,36 +9,35 @@ export default function WhyKhoble() {
               <span className='relative px-1'>
                 <div className='absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-teal-accent-400' />
                 <span className='relative inline-block text-rose-400'>
-                  khoble
+                  khoble?
                 </span>
               </span>
             </h2>
             <p className='text-base text-gray-700 md:text-lg'>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae. explicabo.
+              Nuestra plataforma ofrece herramientas para encontrar al candidato
+              ideal y construir una red de profesionales. Puedes buscar por
+              habilidades, experiencia, educación y otros criterios para
+              seleccionar los mejores candidatos. Además, ofrecemos herramientas
+              de colaboración para conectar con otros profesionales y trabajar
+              en proyectos de manera eficiente.
             </p>
           </div>
           <div className='grid gap-5 row-gap-8 sm:grid-cols-2'>
             <div className='bg-white border-l-4 shadow-sm border-rose-500'>
               <div className='h-full p-5 border border-l-0 rounded-r'>
-                <h6 className='mb-2 font-semibold leading-5'>
-                  Ill be sure to note that in my log
-                </h6>
+                <h6 className='mb-2 font-semibold leading-5'>Encuentra</h6>
                 <p className='text-sm text-gray-900'>
-                  Lookout flogging bilge rat main sheet bilge water nipper fluke
-                  to go on account heave down.
+                  Grandes cantidades de talento estan a la espera de
+                  oportunidades laborales importantes en sus carreras
                 </p>
               </div>
             </div>
             <div className='bg-white border-l-4 shadow-sm border-rose-500'>
               <div className='h-full p-5 border border-l-0 rounded-r'>
-                <h6 className='mb-2 font-semibold leading-5'>
-                  A business big enough that it could be listed
-                </h6>
+                <h6 className='mb-2 font-semibold leading-5'>Conecta</h6>
                 <p className='text-sm text-gray-900'>
-                  Those options are already baked in with this model shoot me an
-                  email clear.
+                  Conecta con profesionales de tu sector y construye una red de
+                  contactos para futuras oportunidades
                 </p>
               </div>
             </div>

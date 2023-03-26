@@ -13,32 +13,12 @@ export default function HowToStart() {
           <path
             strokeLinecap='round'
             strokeLinejoin='round'
-            d='M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z'
-          />
-        </svg>
-      ),
-      title: 'Fast Refresh',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue.',
-    },
-    {
-      icon: (
-        <svg
-          xmlns='http://www.w3.org/2000/svg'
-          fill='none'
-          viewBox='0 0 24 24'
-          strokeWidth={1.5}
-          stroke='currentColor'
-          className='w-6 h-6'
-        >
-          <path
-            strokeLinecap='round'
-            strokeLinejoin='round'
             d='M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z'
           />
         </svg>
       ),
-      title: 'Datacenter security',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue.',
+      title: 'Accede a la plataforma',
+      desc: 'Crea una cuenta en Khoble, postula un nuevo trabajo o usa nuestras herramientas para encontrar el candidato que buscas',
     },
     {
       icon: (
@@ -57,8 +37,28 @@ export default function HowToStart() {
           />
         </svg>
       ),
-      title: 'Build on your terms',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue.',
+      title: 'Crea una publicacion de empleo',
+      desc: 'Nuestra inteligencia artificial tomará los datos que de la vacante y los usará para encontrar a los mejores estudiantes para tu empresa',
+    },
+    {
+      icon: (
+        <svg
+          xmlns='http://www.w3.org/2000/svg'
+          fill='none'
+          viewBox='0 0 24 24'
+          strokeWidth={1.5}
+          stroke='currentColor'
+          className='w-6 h-6'
+        >
+          <path
+            strokeLinecap='round'
+            strokeLinejoin='round'
+            d='M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z'
+          />
+        </svg>
+      ),
+      title: 'Encuenta talento',
+      desc: 'Puedes buscar por habilidades, experiencia, educación y otros criterios que te ayudarán a encontrar a los mejores estudiantes para tus posiciones',
     },
   ];
 
@@ -67,11 +67,11 @@ export default function HowToStart() {
       <div className='relative z-10 max-w-screen-xl mx-auto px-4 text-gray-300 justify-between gap-24 lg:flex md:px-8'>
         <div className='max-w-xl'>
           <h3 className='text-white text-3xl font-semibold sm:text-4xl'>
-            Como puedo empezar?
+            ¿Cómo puedo empezar?
           </h3>
           <p className='mt-3'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            congue, nisl eget molestie varius, enim ex faucibus purus
+            Agregar tu empresa es muy sencillo, solo debes seguir los siguientes
+            pasos:
           </p>
         </div>
         <div className='mt-12 lg:mt-0'>

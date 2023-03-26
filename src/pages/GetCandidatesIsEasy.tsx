@@ -28,7 +28,7 @@ export default function GetCandidatesIsEasy() {
             </svg>
             <span className='relative'>Conseguir</span>
           </span>{' '}
-          candidatos es fácil
+          talento es fácil
         </h2>
         <p className='text-base text-gray-700 md:text-lg'>
           Encontrar candidatos con potencial infinito es ahora infinitamente más
@@ -40,36 +40,37 @@ export default function GetCandidatesIsEasy() {
           <div className='h-full p-5 border border-l-0 rounded-r shadow-sm'>
             <h6 className='mb-2 font-semibold leading-5'>Costo a tu medida</h6>
             <p className='text-sm text-gray-900'>
-              Sportacus andrew weatherall goose Refined gentlemen super mario
-              des lynam alpha trion zap rowsdower.
+              Con nuestras herramientas de colaboración, conectar empresas con
+              profesionales, compartir recursos y formar equipos de trabajo
+              nunca ha sido tan fácil.
             </p>
           </div>
         </div>
         <div className='duration-300 transform bg-white border-l-4 border-rose-400 hover:-translate-y-2'>
           <div className='h-full p-5 border border-l-0 rounded-r shadow-sm'>
-            <h6 className='mb-2 font-semibold leading-5'>Skate ipsum dolor</h6>
+            <h6 className='mb-2 font-semibold leading-5'>Encuentra</h6>
             <p className='text-sm text-gray-900'>
-              Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ofrecemos exploración de áreas laborales para identificar
+              oportunidades de desarrollo y habilidades en los candidatos.
             </p>
           </div>
         </div>
         <div className='duration-300 transform bg-white border-l-4 border-rose-400 hover:-translate-y-2'>
           <div className='h-full p-5 border border-l-0 rounded-r shadow-sm'>
-            <h6 className='mb-2 font-semibold leading-5'>
-              Baseball ipsum dolor
-            </h6>
+            <h6 className='mb-2 font-semibold leading-5'>Consigue</h6>
             <p className='text-sm text-gray-900'>
-              Bro ipsum dolor sit amet gaper backside single track, manny Bike
-              epic clipless. Schraeder drop gondy.
+              Ofrecemos una plataforma con AI que automatiza el proceso de
+              matching de candidatos ideales para las empresas.
             </p>
           </div>
         </div>
         <div className='duration-300 transform bg-white border-l-4 border-rose-400 hover:-translate-y-2'>
           <div className='h-full p-5 border border-l-0 rounded-r shadow-sm'>
-            <h6 className='mb-2 font-semibold leading-5'>They urge you</h6>
+            <h6 className='mb-2 font-semibold leading-5'>Crear una red</h6>
             <p className='text-sm text-gray-900'>
-              A flower in my garden, a mystery in my panties. Heart attack never
-              stopped old Big Bear.
+              Ofrecemos una red de contactos global para que los profesionales
+              se conecten con empresas, compartan recursos y establezcan
+              relaciones laborales de manera inteligente.
             </p>
           </div>
         </div>
