@@ -9,9 +9,9 @@ export default function Banner() {
             talento
           </h2>
           <p className='mb-4 font-medium'>
-            Khoble se enfoca en ayudar a los profesionales a construir el futuro
-            para la próxima generación de profesionales, se parte de la nueva
-            era de la educación y el desarrollo profesional.
+            Khoble se enfoca en ayudar a las empresas a construir su próxima
+            generación de profesionales, se parte de la nueva era de la
+            educación y el desarrollo profesional.
           </p>
           <a
             href='#'

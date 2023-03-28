@@ -31,8 +31,8 @@ export default function GetCandidatesIsEasy() {
           talento es fácil
         </h2>
         <p className='text-base text-gray-700 md:text-lg'>
-          Encontrar candidatos con potencial infinito es ahora infinitamente más
-          fácil con khoble.
+          Encontrar el talento que necesita tu empresa nunca había sido tan
+          fácil.
         </p>
       </div>
       <div className='grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2'>

@@ -5,7 +5,7 @@ export default function WhyKhoble() {
         <div className='flex flex-col justify-center'>
           <div className='max-w-xl mb-6'>
             <h2 className='max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none'>
-              Por que{' '}
+              ¿Por qué{' '}
               <span className='relative px-1'>
                 <div className='absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-teal-accent-400' />
                 <span className='relative inline-block text-rose-400'>
@@ -14,12 +14,12 @@ export default function WhyKhoble() {
               </span>
             </h2>
             <p className='text-base text-gray-700 md:text-lg'>
-              Nuestra plataforma ofrece herramientas para encontrar al candidato
-              ideal y construir una red de profesionales. Puedes buscar por
-              habilidades, experiencia, educación y otros criterios para
-              seleccionar los mejores candidatos. Además, ofrecemos herramientas
-              de colaboración para conectar con otros profesionales y trabajar
-              en proyectos de manera eficiente.
+              Nuestra plataforma ofrece herramientas inteligentes para encontrar
+              al candidato ideal y construir una red de profesionales. Puedes
+              buscar por habilidades, experiencia, educación y otros criterios
+              para seleccionar los candidatos que más se adecuen a tus
+              necesidades. Además, ofrecemos herramientas de colaboración para
+              trabajar en proyectos de manera eficiente.
             </p>
           </div>
           <div className='grid gap-5 row-gap-8 sm:grid-cols-2'>
