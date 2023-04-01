@@ -1,25 +1,16 @@
-import Footer from './Footer';
-import Navbar from './Navbar';
-import Hero from './Hero';
-import ImageHero from './ImageHero';
-import GetCandidatesIsEasy from './GetCandidatesIsEasy';
-import WhyKhoble from './WhyKhoble';
-import Banner from './Banner';
-import HowToStart from './HowToStart';
-import Pricing from './Pricing';
+import { useState } from 'react';
+import CompanyLanding from './CompanyLanding';
+import SwitchNavbar from './SwitchNavbar';
+import StudentLanding from './StudentLanding';
 
 export default function Home() {
+  const [version, setVersion] = useState('company');
+
   return (
     <>
-      <Navbar />
-      <Hero />
-      <HowToStart />
-      {/* <ImageHero /> */}
-      <GetCandidatesIsEasy />
-      <Banner />
-      <WhyKhoble />
-      {/* <Pricing /> */}
-      <Footer />
+      <SwitchNavbar setVersion={setVersion} version={version} />
+      {version === 'company' && <CompanyLanding />}
+      {version === 'student' && <StudentLanding />}
     </>
   );
 }
