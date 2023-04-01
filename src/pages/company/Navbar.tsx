@@ -33,7 +33,7 @@ export default function Navbar() {
                 Inicio
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href='#'
                 aria-label='Our product'
@@ -42,8 +42,8 @@ export default function Navbar() {
               >
                 Precios
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a
                 href='#'
                 aria-label='Product pricing'
@@ -52,11 +52,11 @@ export default function Navbar() {
               >
                 Empleos
               </a>
-            </li>
+            </li> */}
             <li>
               <a
-                href='#'
-                aria-label='About us'
+                href='https://web.khoble.com/recruiter/login'
+                target='_blank'
                 title='About us'
                 className='font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400'
               >
@@ -65,10 +65,10 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href='#'
+                href='https://web.khoble.com/recruiter/signup/'
                 className='inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-rose-500 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none'
-                aria-label='Sign up'
                 title='Sign up'
+                target='_blank'
               >
                 Registame gratis
               </a>
@@ -138,14 +138,13 @@ export default function Navbar() {
                       <li>
                         <a
                           href='#'
-                          aria-label='Our product'
                           title='Our product'
                           className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                         >
                           Inicio
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a
                           href='#'
                           aria-label='Our product'
@@ -154,22 +153,21 @@ export default function Navbar() {
                         >
                           Precios
                         </a>
-                      </li>
-                      <li>
+                      </li> */}
+                      {/* <li>
                         <a
                           href='#'
-                          aria-label='Product pricing'
                           title='Product pricing'
                           className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                         >
                           Empleos
                         </a>
-                      </li>
+                      </li> */}
                       <li>
                         <a
-                          href='#'
-                          aria-label='About us'
+                          href='https://web.khoble.com/recruiter/signup/'
                           title='About us'
+                          target='_blank'
                           className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                         >
                           Iniciar Sesión
@@ -177,10 +175,10 @@ export default function Navbar() {
                       </li>
                       <li>
                         <a
-                          href='#'
-                          className='inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-amber-700 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none'
-                          aria-label='Sign up'
+                          href='https://web.khoble.com/recruiter/signup/'
+                          className='inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-rose-500 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none'
                           title='Sign up'
+                          target='_blank'
                         >
                           Registrate gratis
                         </a>

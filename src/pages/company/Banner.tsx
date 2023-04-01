@@ -14,7 +14,8 @@ export default function Banner() {
             educación y el desarrollo profesional.
           </p>
           <a
-            href='#'
+            href='https://web.khoble.com/recruiter/signup/'
+            target='_blank'
             className='inline-flex items-center font-medium text-primary-600 hover:text-primary-800 dark:text-primary-500 dark:hover:text-primary-700'
           >
             Crea una cuenta gratis

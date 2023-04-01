@@ -1,4 +1,4 @@
-import Footer from './student/Footer';
+import Footer from './Footer';
 import Navbar from './student/Navbar';
 import Hero from './student/Hero';
 import GetCandidatesIsEasy from './student/GetCandidatesIsEasy';
