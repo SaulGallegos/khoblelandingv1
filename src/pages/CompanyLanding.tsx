@@ -6,7 +6,7 @@ import WhyKhoble from './company/WhyKhoble';
 import Banner from './company/Banner';
 import HowToStart from './company/HowToStart';
 
-export default function () {
+export default function CompanyLanding() {
   return (
     <>
       <>

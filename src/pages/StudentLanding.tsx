@@ -6,7 +6,7 @@ import WhyKhoble from './student/WhyKhoble';
 import Banner from './student/Banner';
 import HowToStart from './student/HowToStart';
 
-export default function () {
+export default function StudentLanding() {
   return (
     <>
       <>
