@@ -55,7 +55,7 @@ export default function Navbar() {
             </li> */}
             <li>
               <a
-                href='https://web.khoble.com/login'
+                href='https://web.khoble.com/switch'
                 target='_blank'
                 title='About us'
                 className='font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400'
@@ -148,7 +148,7 @@ export default function Navbar() {
 
                       <li>
                         <a
-                          href='https://web.khoble.com/login'
+                          href='https://web.khoble.com/switch'
                           target='_blank'
                           title='About us'
                           className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
