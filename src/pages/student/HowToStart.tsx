@@ -17,7 +17,7 @@ export default function HowToStart() {
           />
         </svg>
       ),
-      title: 'Customiza',
+      title: 'Personaliza',
       desc: 'Personaliza tu perfil destacando intereses, habilidades y experiencia.',
     },
     {
