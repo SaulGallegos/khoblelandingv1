@@ -28,49 +28,42 @@ export default function GetCandidatesIsEasy() {
             </svg>
             <span className='relative'>Consigue</span>
           </span>{' '}
-          tu primer trabajo khobleando
+          tu primer trabajo Khobleando
         </h2>
         <p className='text-base text-gray-700 md:text-lg'>
           Encontrar el talento que necesita tu empresa nunca había sido tan
           fácil.
         </p>
       </div>
-      <div className='grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2'>
+      <div className='grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-3 sm:grid-cols-2'>
         <div className='duration-300 transform bg-white border-l-4 border-rose-400 hover:-translate-y-2'>
           <div className='h-full p-5 border border-l-0 rounded-r shadow-sm'>
-            <h6 className='mb-2 font-semibold leading-5'>Sin costo</h6>
+            <h6 className='mb-2 font-semibold leading-5'>Gratis</h6>
             <p className='text-sm text-gray-900'>
               Khoble es completamente gratuito para estudiantes universitarios.
-              Queremos proporcionarte las mejores herramientas sin costo.
+              Buscamos asegurar que todos tengan las mismas oportunidades, y que
+              no existan ventajas injustas.
             </p>
           </div>
         </div>
         <div className='duration-300 transform bg-white border-l-4 border-rose-400 hover:-translate-y-2'>
           <div className='h-full p-5 border border-l-0 rounded-r shadow-sm'>
-            <h6 className='mb-2 font-semibold leading-5'>Encuentra</h6>
+            <h6 className='mb-2 font-semibold leading-5'>Descubre</h6>
             <p className='text-sm text-gray-900'>
-              Ofrecemos empleos en una amplia variedad de industrias, te
-              recomendamos las más adecuadas para ti y tu eliges la que más te
-              guste.
+              Queremos ayudarte a experimentar y conectar con diversas empresas,
+              para que puedas encontrar y perseguir lo que más te apasiona.
             </p>
           </div>
         </div>
         <div className='duration-300 transform bg-white border-l-4 border-rose-400 hover:-translate-y-2'>
           <div className='h-full p-5 border border-l-0 rounded-r shadow-sm'>
-            <h6 className='mb-2 font-semibold leading-5'>Consigue</h6>
+            <h6 className='mb-2 font-semibold leading-5'>Proximamente...</h6>
             <p className='text-sm text-gray-900'>
-              Cambiarlo a Selecciona: Recibe invitaciones de empleadores y
-              selecciona las que más te interesen.
-            </p>
-          </div>
-        </div>
-        <div className='duration-300 transform bg-white border-l-4 border-rose-400 hover:-translate-y-2'>
-          <div className='h-full p-5 border border-l-0 rounded-r shadow-sm'>
-            <h6 className='mb-2 font-semibold leading-5'>Crea una red</h6>
-            <p className='text-sm text-gray-900'>
-              Ofrecemos una red de contactos global para que los profesionales
-              se conecten con empresas, compartan recursos y establezcan
-              relaciones laborales de manera inteligente.
+              Anunciamos nuevas funcionalidades que utilizarán inteligencia
+              artificial para proporcionar recomendaciones personalizadas y
+              sugerencias útiles para mejorar el perfil de los usuarios y
+              aumentar sus posibilidades de encontrar un trabajo adecuado a sus
+              habilidades y experiencia.
             </p>
           </div>
         </div>

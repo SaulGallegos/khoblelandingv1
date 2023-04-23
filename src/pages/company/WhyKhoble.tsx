@@ -14,21 +14,35 @@ export default function WhyKhoble() {
               </span>
             </h2>
             <p className='text-base text-gray-700 md:text-lg'>
-              Nuestra plataforma ofrece herramientas inteligentes para encontrar
-              al candidato ideal y construir una red de profesionales. Puedes
-              buscar por habilidades, experiencia, educación y otros criterios
-              para seleccionar los candidatos que más se adecuen a tus
-              necesidades. Además, ofrecemos herramientas de colaboración para
-              trabajar en proyectos de manera eficiente.
+              Nuestra estrategia se centra en tres pilares fundamentales: 1)
+              mejorar la retención en las empresas, 2) reducir la desconexión
+              entre los colaboradores y 3) fomentar un ambiente colaborativo
+              durante el proceso de reclutamiento, para ayudar a las empresas a
+              encontrar y contratar a estudiantes que se ajusten a su identidad
+              y cultura, además de contar con habilidades específicas. También
+              brindamos a los estudiantes la oportunidad de descubrir sus
+              talentos y conectarse con empresas, para encontrar trabajos bien
+              remunerados y apasionantes. Reconocemos que cada organización es
+              única, por lo que nos esforzamos por proporcionar herramientas
+              personalizadas que ayuden a encontrar al candidato ideal, no solo
+              por sus habilidades, sino también por su compatibilidad con la
+              empresa. Para lograrlo, planeamos implementar inteligencia
+              artificial y aprendizaje automático, para simplificar y
+              automatizar los procesos actuales y mejorar la búsqueda para ambas
+              partes. Al conectar a empresas y candidatos, podemos contribuir a
+              la construcción de organizaciones sólidas y cohesionadas.
             </p>
           </div>
-          <div className='grid gap-5 row-gap-8 sm:grid-cols-2'>
+          {/* <div className='grid gap-5 row-gap-8 sm:grid-cols-2'>
             <div className='bg-white border-l-4 shadow-sm border-rose-500'>
               <div className='h-full p-5 border border-l-0 rounded-r'>
                 <h6 className='mb-2 font-semibold leading-5'>Encuentra</h6>
                 <p className='text-sm text-gray-900'>
-                  Grandes cantidades de talento estan a la espera de
-                  oportunidades laborales importantes en sus carreras
+                  Entendemos que cada organización es única, y por eso nos
+                  esforzamos en proporcionar las herramientas necesarias para
+                  que encuentres al candidato ideal, no solo por sus
+                  habilidades, sino también por su compatibilidad con la
+                  empresa.
                 </p>
               </div>
             </div>
@@ -36,12 +50,16 @@ export default function WhyKhoble() {
               <div className='h-full p-5 border border-l-0 rounded-r'>
                 <h6 className='mb-2 font-semibold leading-5'>Conecta</h6>
                 <p className='text-sm text-gray-900'>
-                  Conecta con profesionales de tu sector y construye una red de
-                  contactos para futuras oportunidades
+                  Planeamos utilizar inteligencia artificial y aprendizaje
+                  automático para simplificar y automatizar los procesos
+                  actuales, implementando algoritmos de coincidencia
+                  personalizados que prioricen y mejoren la búsqueda para ambas
+                  partes. Al unir a empresas y candidatos, podemos contribuir a
+                  la construcción de organizaciones más sólidas y cohesionadas.
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div>
           <img

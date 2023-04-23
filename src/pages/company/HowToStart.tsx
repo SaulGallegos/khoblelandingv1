@@ -17,8 +17,8 @@ export default function HowToStart() {
           />
         </svg>
       ),
-      title: 'Accede a la plataforma',
-      desc: 'Haz la cuenta de tu empresa de manera rápida y sencilla.',
+      title: 'Crea tu perfil de reclutador',
+      desc: 'Llena tus datos básicos',
     },
     {
       icon: (
@@ -37,8 +37,8 @@ export default function HowToStart() {
           />
         </svg>
       ),
-      title: 'Crea una publicacion de empleo',
-      desc: 'Postula tus vacantes y recibe solicitudes de estudiantes.',
+      title: 'Crea tu cuenta de empresa',
+      desc: 'Llena los datos de tu empresa, y agrega a tus compañeros',
     },
     {
       icon: (
@@ -57,8 +57,8 @@ export default function HowToStart() {
           />
         </svg>
       ),
-      title: 'Encuenta talento',
-      desc: 'Busca candidatos dentro de nuestra bolsa de estudiantes.',
+      title: 'Bienvenido a Khoble',
+      desc: 'Estas listo para re-inventar tu organización?',
     },
   ];
 

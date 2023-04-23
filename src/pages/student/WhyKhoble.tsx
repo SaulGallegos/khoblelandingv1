@@ -9,17 +9,28 @@ export default function WhyKhoble() {
               <span className='relative px-1'>
                 <div className='absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-teal-accent-400' />
                 <span className='relative inline-block text-rose-400'>
-                  khoble?
+                  Khoble?
                 </span>
               </span>
             </h2>
             <p className='text-base text-gray-700 md:text-lg'>
-              Empleos personalizados a tus necesidades: Al analizar los datos de
-              tu perfil, puedes recibir recomendaciones e invitaciones que se
-              ajusten a ti.
+              No somos solo una startup; estamos aquí para remodelar el mercado
+              laboral tal como lo conocemos. Nuestro objetivo es crear un
+              entorno colaborativo en el que las empresas y los empleados se
+              unan para garantizar la satisfacción de ambas partes, en lugar de
+              solo una. De un lado queremos ayudar a los estudiantes a ir más
+              allá de simplemente seguir un proceso para conseguir un empleo y,
+              en cambio, brindarles una experiencia que les permita descubrir en
+              qué son buenos, recibir el salario que merecen y, lo más
+              importante, encontrar un trabajo que realmente les guste.
+              Paralelamente, apoyamos a las empresas en su camino hacia un
+              enfoque más centrado en las personas, desmantelando la burocracia
+              y empoderando a los colaboradores para liberarse de las
+              trayectorias profesionales tradicionales. Esto lleva a la creación
+              de organizaciones más fuertes y cohesionadas.
             </p>
           </div>
-          <div className='grid gap-5 row-gap-8 sm:grid-cols-2'>
+          {/* <div className='grid gap-5 row-gap-8 sm:grid-cols-2'>
             <div className='bg-white border-l-4 shadow-sm border-rose-500'>
               <div className='h-full p-5 border border-l-0 rounded-r'>
                 <h6 className='mb-2 font-semibold leading-5'>Encuentra</h6>
@@ -38,7 +49,7 @@ export default function WhyKhoble() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div>
           <img

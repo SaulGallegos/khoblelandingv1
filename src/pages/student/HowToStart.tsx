@@ -17,8 +17,8 @@ export default function HowToStart() {
           />
         </svg>
       ),
-      title: 'Personaliza',
-      desc: 'Personaliza tu perfil destacando intereses, habilidades y experiencia.',
+      title: 'Crea tu Perfil',
+      desc: 'Construye tu perfil alineado con tus intereses, habilidades. y experiencia',
     },
     {
       icon: (
@@ -37,8 +37,8 @@ export default function HowToStart() {
           />
         </svg>
       ),
-      title: 'Manda swipe',
-      desc: 'Basándonos en tu perfil te proporcionaremos resultados ajustados a tu perfil.',
+      title: 'Busca',
+      desc: 'Explora oportunidades que te resuenen',
     },
     {
       icon: (
@@ -57,8 +57,8 @@ export default function HowToStart() {
           />
         </svg>
       ),
-      title: 'Aplica',
-      desc: 'Inicia tu chat con el reclutador e incicia tu proceso de contratación.',
+      title: '¿Encontraste tu trabajo ideal?',
+      desc: 'Inicia tu descubrimiento… Aplica si es que todavía no te encontraron antes ;)',
     },
   ];
 

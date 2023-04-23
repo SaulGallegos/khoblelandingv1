@@ -1,5 +1,4 @@
 import Footer from './Footer';
-import Navbar from './company/Navbar';
 import Hero from './company/Hero';
 import GetCandidatesIsEasy from './company/GetCandidatesIsEasy';
 import WhyKhoble from './company/WhyKhoble';
@@ -10,7 +9,6 @@ export default function CompanyLanding() {
   return (
     <>
       <>
-        <Navbar />
         <Hero />
         <HowToStart />
         <GetCandidatesIsEasy />

@@ -65,7 +65,7 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href='https://web.khoble.com/switch/signup'
+                href='https://web.khoble.com/student/signup/'
                 target='_blank'
                 className='inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-rose-500 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none'
                 title='Sign up'
@@ -158,7 +158,7 @@ export default function Navbar() {
                       </li>
                       <li>
                         <a
-                          href='https://web.khoble.com/switch/signup'
+                          href='https://web.khoble.com/student/signup/'
                           target='_blank'
                           className='inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-rose-500 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none'
                           aria-label='Sign up'

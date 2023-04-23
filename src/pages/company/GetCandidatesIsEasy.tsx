@@ -26,51 +26,44 @@ export default function GetCandidatesIsEasy() {
                 height='24'
               />
             </svg>
-            <span className='relative'>Conseguir</span>
+            <span className='relative'>Descubre</span>
           </span>{' '}
-          talento es fácil
+          la siguiente generación de talentos profesionales para tu empresa
         </h2>
         <p className='text-base text-gray-700 md:text-lg'>
           Encontrar el talento que necesita tu empresa nunca había sido tan
           fácil.
         </p>
       </div>
-      <div className='grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2'>
+      <div className='grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-3 sm:grid-cols-2'>
         <div className='duration-300 transform bg-white border-l-4 border-rose-400 hover:-translate-y-2'>
           <div className='h-full p-5 border border-l-0 rounded-r shadow-sm'>
-            <h6 className='mb-2 font-semibold leading-5'>Costo a tu medida</h6>
+            <h6 className='mb-2 font-semibold leading-5'>Plan actual</h6>
             <p className='text-sm text-gray-900'>
-              Con nuestras herramientas de colaboración, conectar empresas con
-              profesionales, compartir recursos y formar equipos de trabajo
-              nunca ha sido tan fácil.
+              Pagas por publicación de trabajo. Próximamente: subscripción
+              personalizada o continuar con pago por publicación.
             </p>
           </div>
         </div>
         <div className='duration-300 transform bg-white border-l-4 border-rose-400 hover:-translate-y-2'>
           <div className='h-full p-5 border border-l-0 rounded-r shadow-sm'>
-            <h6 className='mb-2 font-semibold leading-5'>Encuentra</h6>
+            <h6 className='mb-2 font-semibold leading-5'>Descubre</h6>
             <p className='text-sm text-gray-900'>
-              Ofrecemos exploración de áreas laborales para identificar
-              oportunidades de desarrollo y habilidades en los candidatos.
+              Encuentra una diversidad de talentos que están alienados con tu
+              misión, desarrollando un amplio nivel de confianza entre
+              colaboradores y lograr éxito mutuo
             </p>
           </div>
         </div>
         <div className='duration-300 transform bg-white border-l-4 border-rose-400 hover:-translate-y-2'>
           <div className='h-full p-5 border border-l-0 rounded-r shadow-sm'>
-            <h6 className='mb-2 font-semibold leading-5'>Consigue</h6>
+            <h6 className='mb-2 font-semibold leading-5'>Proximamente</h6>
             <p className='text-sm text-gray-900'>
-              Ofrecemos una plataforma con AI que automatiza el proceso de
-              matching de candidatos ideales para las empresas.
-            </p>
-          </div>
-        </div>
-        <div className='duration-300 transform bg-white border-l-4 border-rose-400 hover:-translate-y-2'>
-          <div className='h-full p-5 border border-l-0 rounded-r shadow-sm'>
-            <h6 className='mb-2 font-semibold leading-5'>Crear una red</h6>
-            <p className='text-sm text-gray-900'>
-              Ofrecemos una red de contactos global para que los profesionales
-              se conecten con empresas, compartan recursos y establezcan
-              relaciones laborales de manera inteligente.
+              Estamos emocionados de anunciar que pronto lanzaremos nuevas
+              funcionalidades que incorporarán inteligencia artificial para
+              ayudar a facilitar y automatizar ciertos procesos, lo que les
+              permitirá enfocarse en tareas más estratégicas y aumentar su
+              eficiencia en el proceso de reclutamiento.
             </p>
           </div>
         </div>

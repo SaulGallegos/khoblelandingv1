@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className='bg-white dark:bg-gray-900'>
+    <section className='bg-white dark:bg-gray-900 mt-20'>
       <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12'>
         {/* <div className='grid grid-rows-3 grid-flow-col mb-6 '>
           <div className='row-start-1 row-end-4 '>
@@ -22,11 +22,13 @@ export default function Hero() {
         </div> */}
 
         <h1 className='mb-8 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white'>
-          Encuentra tu siguiente generación de talento
+          Explora el futuro talento de tu organización
         </h1>
         <p className='mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400'>
-          Únete a Khoble para encontrar el talento estudiantil personalizado a
-          las necesidades de tu empresa.
+          Buscamos ayudarte a conectar a las personas que compartan tu cultura y
+          valores; no se trata de encontrar cualquier talento, si no el talento
+          especifico que tu organización requiere. Transforma tu empresa
+          mediante la tecnología y la inteligencia artificial con Khoble.
         </p>
         <div className='flex flex-col mb-4  space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4'>
           <a

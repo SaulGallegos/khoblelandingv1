@@ -1,16 +1,17 @@
 export default function Hero() {
   return (
-    <section className='bg-white dark:bg-gray-900'>
+    <section className='bg-white dark:bg-gray-900 mt-20'>
       <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12'>
         <h1 className='mb-8 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white'>
-          Encuentra el trabajo adecuado para tu perfil universitario.
+          Comienza el viaje para encontrar tu pasión y propósito
         </h1>
-        <p className='mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400'>
-          Basado en tus intereses y habilidades, dentro de khoble te
-          proporcionamos las mejores propuestas de trabajo adecuadas a tu
-          perfil. Nuestra misión es ayudarte a encontrar el mejor trabajo para
-          ti y promover un acceso igualitario a oportunidades laborales de
-          calidad.
+        <p className='mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-38 dark:text-gray-400'>
+          En Khoble, creemos que cada persona debería tener la oportunidad de
+          encontrar su propósito único y satisfactorio y hacer un impacto
+          significativo en el mundo. Por lo tanto, te guiamos a encontrar una
+          misión única donde podrás maximizar tu creatividad, competencia,
+          colaboración y compromiso para redefinir tu trayectoria y alcanzar tu
+          máximo potencial.
         </p>
         <div className='flex flex-col mb-4  space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4'>
           <a
