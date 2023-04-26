@@ -10,10 +10,10 @@ export default function CompanyLanding() {
     <>
       <>
         <Hero />
+        <WhyKhoble />
         <HowToStart />
         <GetCandidatesIsEasy />
         <Banner />
-        <WhyKhoble />
         {/* <Pricing /> */}
         <Footer />
       </>

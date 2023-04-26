@@ -99,7 +99,7 @@ export default function HowToStart() {
             'linear-gradient(152.92deg, rgba(192, 132, 252, 0.2) 4.54%, rgba(232, 121, 249, 0.26) 34.2%, rgba(192, 132, 252, 0.1) 77.55%)',
         }}
       ></div>
-      <div className='px-4 mx-auto text-center mt-12 md:max-w-screen-md lg:max-w-screen-lg lg:px-36'>
+      {/* <div className='px-4 mx-auto text-center mt-12 md:max-w-screen-md lg:max-w-screen-lg lg:px-36'>
         <span className='font-semibold text-gray-400 uppercase'>
           FEATURED IN
         </span>
@@ -205,7 +205,7 @@ export default function HowToStart() {
             </svg>
           </a>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

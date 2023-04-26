@@ -10,10 +10,10 @@ export default function StudentLanding() {
     <>
       <>
         <Hero />
+        <WhyKhoble />
         <HowToStart />
         <GetCandidatesIsEasy />
         {/* <Banner /> */}
-        <WhyKhoble />
         {/* <Pricing /> */}
         <Footer />
       </>
