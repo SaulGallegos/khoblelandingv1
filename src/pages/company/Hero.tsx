@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className='bg-white dark:bg-gray-900 mt-20'>
+    <section className='bg-white dark:bg-gray-900 '>
       <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12'>
         {/* <div className='grid grid-rows-3 grid-flow-col mb-6 '>
           <div className='row-start-1 row-end-4 '>

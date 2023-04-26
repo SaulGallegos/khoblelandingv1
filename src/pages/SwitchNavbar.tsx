@@ -1,3 +1,4 @@
+import { useState } from 'react';
 export default function SwitchNavbar({
   setVersion,
   version,
@@ -5,12 +6,19 @@ export default function SwitchNavbar({
   setVersion: (version: string) => void;
   version: string;
 }) {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
-    <nav className='bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600'>
+    <nav className='bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600 sticky top-0 z-50'>
       <div className='max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4'>
         <ul className='flex items-center  space-x-8 lg:flex'>
           <li className='mr-5'>
             <a href='#' className='flex items-center'>
+              {/* <img
+                src='https://media.licdn.com/dms/image/C4E0BAQF_xpYQ1UrcJg/company-logo_200_200/0/1678195867758?e=1687392000&v=beta&t=kF9eQLMRZu4FWfYCcRmRUmBXYKtCbgdM3KHE416UD20'
+                className='h-6 mr-3 sm:h-9'
+                alt='Khoble Logo'
+              /> */}
               <span className='self-center text-2xl font-semibold whitespace-nowrap dark:text-white'>
                 Khoble
               </span>
@@ -51,11 +59,7 @@ export default function SwitchNavbar({
               <a
                 target='_blank'
                 title='About us'
-                href={
-                  version === 'company'
-                    ? 'https://web.khoble.com/recruiter/login/'
-                    : 'https://web.khoble.com/login'
-                }
+                href='https://web.khoble.com/switch'
                 className='font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400'
               >
                 Iniciar Sesión
@@ -66,92 +70,101 @@ export default function SwitchNavbar({
                 target='_blank'
                 className='inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-rose-500 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none'
                 title='Sign up'
-                href={
-                  version === 'company'
-                    ? 'https://web.khoble.com/recruiter/signup/'
-                    : 'https://web.khoble.com/student/signup/'
-                }
+                href='https://web.khoble.com/switch/signup'
               >
-                Registame gratis
+                Registrame gratis
               </a>
             </li>
           </ul>
+        </div>
+        <div className='lg:hidden'>
           <button
-            data-collapse-toggle='navbar-sticky'
-            type='button'
-            className='inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600'
-            aria-controls='navbar-sticky'
-            aria-expanded='false'
+            aria-label='Open Menu'
+            title='Open Menu'
+            className='p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline'
+            onClick={() => setIsMenuOpen(true)}
           >
-            <span className='sr-only'>Open main menu</span>
-            <svg
-              className='w-6 h-6'
-              aria-hidden='true'
-              fill='currentColor'
-              viewBox='0 0 20 20'
-              xmlns='http://www.w3.org/2000/svg'
-            >
+            <svg className='w-5 text-gray-600' viewBox='0 0 24 24'>
               <path
-                fillRule='evenodd'
-                d='M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z'
-                clipRule='evenodd'
-              ></path>
+                fill='currentColor'
+                d='M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z'
+              />
+              <path
+                fill='currentColor'
+                d='M23,6H1C0.4,6,0,5.6,0,5s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,6,23,6z'
+              />
+              <path
+                fill='currentColor'
+                d='M23,20H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,20,23,20z'
+              />
             </svg>
           </button>
+          {isMenuOpen && (
+            <div className='absolute top-0 left-0 w-full'>
+              <div className='p-5 bg-white border rounded shadow-sm'>
+                <div className='flex items-center justify-between mb-4'>
+                  <div>
+                    <a
+                      href='#'
+                      aria-label='Company'
+                      title='Company'
+                      className='inline-flex items-center'
+                    >
+                      <img
+                        src='https://media.licdn.com/dms/image/C4E0BAQF_xpYQ1UrcJg/company-logo_200_200/0/1678195867758?e=1687392000&v=beta&t=kF9eQLMRZu4FWfYCcRmRUmBXYKtCbgdM3KHE416UD20'
+                        className='h-6 mr-3 sm:h-9'
+                        alt='Khoble Logo'
+                      />
+                      <span className='ml-2 text-xl font-bold tracking-wide text-gray-800'>
+                        Khoble
+                      </span>
+                    </a>
+                  </div>
+                  <div>
+                    <button
+                      aria-label='Close Menu'
+                      title='Close Menu'
+                      className='p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline'
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      <svg className='w-5 text-gray-600' viewBox='0 0 24 24'>
+                        <path
+                          fill='currentColor'
+                          d='M19.7,4.3c-0.4-0.4-1-0.4-1.4,0L12,10.6L5.7,4.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l6.3,6.3l-6.3,6.3 c-0.4,0.4-0.4,1,0,1.4C4.5,19.9,4.7,20,5,20s0.5-0.1,0.7-0.3l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3 c0.4-0.4,0.4-1,0-1.4L13.4,12l6.3-6.3C20.1,5.3,20.1,4.7,19.7,4.3z'
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <nav>
+                  <ul className='space-y-4'>
+                    <li>
+                      <a
+                        href='https://web.khoble.com/switch/'
+                        title='About us'
+                        target='_blank'
+                        className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+                      >
+                        Iniciar Sesión
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href='https://web.khoble.com/switch/signup'
+                        className='inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-rose-500 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none'
+                        title='Sign up'
+                        target='_blank'
+                      >
+                        Registrate gratis
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          )}
         </div>
-        {/* <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-        <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-          <li>
-            <a href="#" className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
-          </li>
-          <li>
-            <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
-          </li>
-          <li>
-            <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
-          </li>
-          <li>
-            <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
-          </li>
-        </ul>
-      </div> */}
       </div>
     </nav>
   );
-}
-{
-  /* <header>
-      <nav className='bg-white border-gray-200 px-4  py-2.5 dark:bg-gray-800'>
-        <div className='flex flex-wrap justify-between items-center'>
-          <div className='flex justify-start items-center'>
-            <ul className='flex items-center  space-x-8 lg:flex'>
-              <li>
-                <a
-                  aria-label='Our product'
-                  title='Our product'
-                  className={`cursor-pointer font-medium tracking-wide text-${
-                    version !== 'company' ? 'gray-100' : 'rose-500'
-                  } transition-colors duration-200`}
-                  onClick={() => setVersion('company')}
-                >
-                  Empresa
-                </a>
-              </li>
-              <li>
-                <a
-                  aria-label='Our product'
-                  title='Our product'
-                  className={`cursor-pointer font-medium tracking-wide text-${
-                    version === 'company' ? 'gray-100' : 'rose-500'
-                  } transition-colors duration-200`}
-                  onClick={() => setVersion('student')}
-                >
-                  Estudiante
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header> */
 }
