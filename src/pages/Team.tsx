@@ -7,8 +7,9 @@ export default function Team() {
             El equipo de khoble
           </h2>
           <p className='dark:text-black-500'>
-            Somos un grupo de entusiastas que busca ayudar a las empresas a
-            encontrar el talento que necesitan.
+            Estamos construyendo una plataforma de trabajo impulsada por IA que
+            cambiará la forma en que los estudiantes encuentran sus carreras
+            ideales.
           </p>
         </div>
         <div className='grid gap-6 px-4 sm:px-0 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
@@ -30,7 +31,7 @@ export default function Team() {
                   CEO & Co-Founder
                 </span>
               </div>
-              <p className='mt-8 text-gray-300 dark:text-gray-600'>
+              <p className='mt-8 text-white dark:text-white'>
                 Quae labore quia tempora dolor impedit. Possimus, sint ducimus
                 ipsam?
               </p>
@@ -54,7 +55,7 @@ export default function Team() {
                   CPO & Co-Founder
                 </span>
               </div>
-              <p className='mt-8 text-gray-300 dark:text-gray-600'>
+              <p className='mt-8 text-white dark:text-white'>
                 Quae labore quia tempora dolor impedit. Possimus, sint ducimus
                 ipsam?
               </p>
@@ -78,7 +79,7 @@ export default function Team() {
                   CFO- Co-Founder
                 </span>
               </div>
-              <p className='mt-8 text-gray-300 dark:text-gray-600'>
+              <p className='mt-8 text-white dark:text-white'>
                 Quae labore quia tempora dolor impedit. Possimus, sint ducimus
                 ipsam?
               </p>
@@ -100,7 +101,81 @@ export default function Team() {
                 </h4>
                 <span className='block text-sm text-gray-500'>Tech Lead</span>
               </div>
-              <p className='mt-8 text-gray-300 dark:text-gray-600'>
+              <p className='mt-8 text-white dark:text-white'>
+                Quae labore quia tempora dolor impedit. Possimus, sint ducimus
+                ipsam?
+              </p>
+            </div>
+          </div>
+
+          <div className='group relative  space-y-6 overflow-hidden'>
+            <img
+              className='mx-auto h-[26rem] w-full grayscale object-cover object-top ransition duration-500 group-hover:scale-105 group-hover:grayscale-0'
+              src='https://media.licdn.com/dms/image/C5603AQEFDD5M4vFtUg/profile-displayphoto-shrink_400_400/0/1653538393139?e=1688601600&v=beta&t=p84UP-eEfQJf-M8iIl40V8hC9mhAyHFlHF07HrHOvUM'
+              alt='woman'
+              loading='lazy'
+              width='640'
+              height='805'
+            />
+            <div className='absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-gray-800 dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0'>
+              <div>
+                <h4 className='text-xl font-semibold dark:text-gray-700 text-white'>
+                  Jaime Lopez-Hidalgo
+                </h4>
+                <span className='block text-sm text-gray-500'>
+                  Frontend Web Developer
+                </span>
+              </div>
+              <p className='mt-8 text-white dark:text-white'>
+                Quae labore quia tempora dolor impedit. Possimus, sint ducimus
+                ipsam?
+              </p>
+            </div>
+          </div>
+          <div className='group relative  space-y-6 overflow-hidden'>
+            <img
+              className='mx-auto h-[26rem] w-full grayscale object-cover object-top ransition duration-500 group-hover:scale-105 group-hover:grayscale-0'
+              src='https://media.licdn.com/dms/image/C4E03AQFfjlkD1xb4sw/profile-displayphoto-shrink_400_400/0/1606512323269?e=1688601600&v=beta&t=A274BTwrWjukUxAxVCbmwd-GCO7oD0rBDd3vPsYdgHw'
+              alt='woman'
+              loading='lazy'
+              width='640'
+              height='805'
+            />
+            <div className='absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-gray-800 dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0'>
+              <div>
+                <h4 className='text-xl font-semibold dark:text-gray-700 text-white'>
+                  Esteban Ortíz
+                </h4>
+                <span className='block text-sm text-gray-500'>
+                  Frontend Web Developer
+                </span>
+              </div>
+              <p className='mt-8 text-white dark:text-white'>
+                Quae labore quia tempora dolor impedit. Possimus, sint ducimus
+                ipsam?
+              </p>
+            </div>
+          </div>
+          <div className='group relative  space-y-6 overflow-hidden'>
+            <img
+              className='mx-auto h-[26rem] w-full grayscale object-cover object-top transition duration-500 group-hover:scale-105 group-hover:grayscale-0'
+              src='https://media.licdn.com/dms/image/C4E03AQE0AV71DUid8Q/profile-displayphoto-shrink_400_400/0/1636988941618?e=1688601600&v=beta&t=cX2xuXprarNSjgVwsw476PSZmhFAkHvVXFDMfwwZwAM'
+              alt='woman'
+              loading='lazy'
+              width='640'
+              height='805'
+            />
+            <div className='absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-gray-800 dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0'>
+              <div>
+                <h4 className='text-xl font-semibold dark:text-gray-700 text-white'>
+                  Nicolas Levy
+                </h4>
+                <span className='block text-sm text-gray-500'>
+                  People and culture
+                </span>
+              </div>
+              {/* <p className='mt-8 text-gray-300 dark:text-gray-600'> */}
+              <p className='mt-8 text-white dark:text-white'>
                 Quae labore quia tempora dolor impedit. Possimus, sint ducimus
                 ipsam?
               </p>
