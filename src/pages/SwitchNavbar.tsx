@@ -9,7 +9,7 @@ export default function SwitchNavbar({
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className='bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600 sticky top-0 z-50'>
+    <nav className='bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-600 sticky top-0 z-50'>
       <div className='max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4'>
         <ul className='flex items-center  space-x-8 lg:flex'>
           <li className='mr-5'>
@@ -19,7 +19,7 @@ export default function SwitchNavbar({
                 className='h-6 mr-3 sm:h-9'
                 alt='Khoble Logo'
               /> */}
-              <span className='self-center text-2xl font-semibold whitespace-nowrap dark:text-white'>
+              <span className='self-center text-2xl font-semibold whitespace-nowrap text-white'>
                 Khoble
               </span>
             </a>

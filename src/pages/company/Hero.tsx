@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className='bg-white dark:bg-gray-900 '>
+    <section className='bg-gray-900 '>
       <div className='py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12'>
         {/* <div className='grid grid-rows-3 grid-flow-col mb-6 '>
           <div className='row-start-1 row-end-4 '>
@@ -21,10 +21,10 @@ export default function Hero() {
           </div>
         </div> */}
 
-        <h1 className='mb-8 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white'>
+        <h1 className='mb-8 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white'>
           Explora el futuro talento de tu organización
         </h1>
-        <p className='mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400'>
+        <p className='mb-8 text-lg font-normal  lg:text-xl sm:px-16 xl:px-48 text-gray-400'>
           Buscamos ayudarte a conectar a las personas que compartan tu cultura y
           valores; no se trata de encontrar cualquier talento, si no el talento
           especifico que tu organización requiere. Transforma tu empresa
@@ -34,7 +34,7 @@ export default function Hero() {
           <a
             href='https://web.khoble.com/recruiter/signup/'
             target='_blank'
-            className='inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800'
+            className='inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center rounded-lg border  hover:bg-gray-100 focus:ring-4 text-white border-gray-700 hover:bg-gray-700 focus:ring-gray-800'
           >
             Registrame gratis
           </a>

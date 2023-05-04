@@ -3,10 +3,10 @@ export default function Team() {
     <div className='py-20'>
       <div className='xl:container mx-auto px-6 md:px-12'>
         <div className='mb-16 md:w-2/3 lg:w-1/2'>
-          <h2 className='mb-4 text-2xl font-bold dark:text-black-500 md:text-4xl'>
-            El equipo de khoble
+          <h2 className='mb-4 text-2xl font-bold text-black-500 md:text-4xl'>
+            El equipo de Khoble
           </h2>
-          <p className='dark:text-black-500'>
+          <p className='text-black-500'>
             Estamos construyendo una plataforma de trabajo impulsada por IA que
             cambiará la forma en que los estudiantes encuentran sus carreras
             ideales.
@@ -22,16 +22,16 @@ export default function Team() {
               width='640'
               height='805'
             />
-            <div className='absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-gray-800 dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0'>
+            <div className='absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6  bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0'>
               <div>
-                <h4 className='text-xl font-semibold dark:text-gray-700 text-white'>
+                <h4 className='text-xl font-semibold text-gray-700'>
                   Javier Cordero
                 </h4>
                 <span className='block text-sm text-gray-500'>
                   CEO & Co-Founder
                 </span>
               </div>
-              <p className='mt-8 text-white dark:text-white'>
+              <p className='mt-8 text-white'>
                 Quae labore quia tempora dolor impedit. Possimus, sint ducimus
                 ipsam?
               </p>
@@ -46,16 +46,16 @@ export default function Team() {
               width='640'
               height='805'
             />
-            <div className='absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-gray-800 dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0'>
+            <div className='absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0'>
               <div>
-                <h4 className='text-xl font-semibold dark:text-gray-700 text-white'>
+                <h4 className='text-xl font-semibold text-gray-700'>
                   Juan Alvaro Hecht
                 </h4>
                 <span className='block text-sm text-gray-500'>
                   CPO & Co-Founder
                 </span>
               </div>
-              <p className='mt-8 text-white dark:text-white'>
+              <p className='mt-8 text-white'>
                 Quae labore quia tempora dolor impedit. Possimus, sint ducimus
                 ipsam?
               </p>
@@ -70,18 +70,19 @@ export default function Team() {
               width='640'
               height='805'
             />
-            <div className='absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-gray-800 dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0'>
+            <div className='absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0'>
               <div>
-                <h4 className='text-xl font-semibold dark:text-gray-700 text-white'>
+                <h4 className='text-xl font-semibold text-gray-700'>
                   Guillermo Salles
                 </h4>
                 <span className='block text-sm text-gray-500'>
                   CFO- Co-Founder
                 </span>
               </div>
-              <p className='mt-8 text-white dark:text-white'>
-                Quae labore quia tempora dolor impedit. Possimus, sint ducimus
-                ipsam?
+              <p className='mt-8 text-gray-600'>
+                “No permitas que el miedo al fracaso te detenga en tu búsqueda
+                del éxito; la perseverancia es la clave para alcanzar tus
+                metas.” - Séneca
               </p>
             </div>
           </div>
@@ -94,14 +95,14 @@ export default function Team() {
               width='640'
               height='805'
             />
-            <div className='absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-gray-800 dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0'>
+            <div className='absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0'>
               <div>
-                <h4 className='text-xl font-semibold dark:text-gray-700 text-white'>
+                <h4 className='text-xl font-semibold text-gray-700'>
                   Saul Gallegos
                 </h4>
                 <span className='block text-sm text-gray-500'>Tech Lead</span>
               </div>
-              <p className='mt-8 text-white dark:text-white'>
+              <p className='mt-8 text-white'>
                 Quae labore quia tempora dolor impedit. Possimus, sint ducimus
                 ipsam?
               </p>
@@ -117,16 +118,16 @@ export default function Team() {
               width='640'
               height='805'
             />
-            <div className='absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-gray-800 dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0'>
+            <div className='absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0'>
               <div>
-                <h4 className='text-xl font-semibold dark:text-gray-700 text-white'>
+                <h4 className='text-xl font-semibold text-gray-700'>
                   Jaime Lopez-Hidalgo
                 </h4>
                 <span className='block text-sm text-gray-500'>
                   Frontend Web Developer
                 </span>
               </div>
-              <p className='mt-8 text-white dark:text-white'>
+              <p className='mt-8 text-white'>
                 Quae labore quia tempora dolor impedit. Possimus, sint ducimus
                 ipsam?
               </p>
@@ -141,16 +142,16 @@ export default function Team() {
               width='640'
               height='805'
             />
-            <div className='absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-gray-800 dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0'>
+            <div className='absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0'>
               <div>
-                <h4 className='text-xl font-semibold dark:text-gray-700 text-white'>
+                <h4 className='text-xl font-semibold text-gray-700'>
                   Esteban Ortíz
                 </h4>
                 <span className='block text-sm text-gray-500'>
                   Frontend Web Developer
                 </span>
               </div>
-              <p className='mt-8 text-white dark:text-white'>
+              <p className='mt-8 text-white'>
                 Quae labore quia tempora dolor impedit. Possimus, sint ducimus
                 ipsam?
               </p>
@@ -165,17 +166,17 @@ export default function Team() {
               width='640'
               height='805'
             />
-            <div className='absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-gray-800 dark:bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0'>
+            <div className='absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0'>
               <div>
-                <h4 className='text-xl font-semibold dark:text-gray-700 text-white'>
+                <h4 className='text-xl font-semibold text-gray-700'>
                   Nicolas Levy
                 </h4>
                 <span className='block text-sm text-gray-500'>
                   People and culture
                 </span>
               </div>
-              {/* <p className='mt-8 text-gray-300 dark:text-gray-600'> */}
-              <p className='mt-8 text-white dark:text-white'>
+              {/* <p className='mt-8 text-gray-600'> */}
+              <p className='mt-8 text-white'>
                 Quae labore quia tempora dolor impedit. Possimus, sint ducimus
                 ipsam?
               </p>
