@@ -159,7 +159,7 @@ export default function Team() {
           <div className='group relative  space-y-6 overflow-hidden'>
             <img
               className='mx-auto h-[26rem] w-full grayscale object-cover object-top transition duration-500 group-hover:scale-105 group-hover:grayscale-0'
-              src='https://media.licdn.com/dms/image/C4E03AQE0AV71DUid8Q/profile-displayphoto-shrink_400_400/0/1636988941618?e=1688601600&v=beta&t=cX2xuXprarNSjgVwsw476PSZmhFAkHvVXFDMfwwZwAM'
+              src='https://media.licdn.com/dms/image/D4D03AQElpaoTU9AvBQ/profile-displayphoto-shrink_800_800/0/1683212109142?e=1688601600&v=beta&t=xzD6WJ0bXQzTeALYOsIvpVcP9FW-b3bWnuFkLNWl7qA'
               alt='woman'
               loading='lazy'
               width='640'
