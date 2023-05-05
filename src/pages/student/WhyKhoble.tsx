@@ -9,7 +9,7 @@ export default function WhyKhoble() {
           <p className='mb-4'>
             No somos solo una startup; estamos aquí para remodelar el mercado
             laboral tal como lo conocemos. Nuestro objetivo es crear un entorno
-            colaborativo en el que las empresas y los empleados se unan para
+            colaborativo en el que las empresas y los colaboradores se unan para
             garantizar la satisfacción de ambas partes, en lugar de solo una. De
             un lado queremos ayudar a los estudiantes a ir más allá de
             simplemente seguir un proceso para conseguir un empleo y, en cambio,
