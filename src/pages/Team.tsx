@@ -39,6 +39,31 @@ export default function Team() {
           </div>
           <div className='group relative  space-y-6 overflow-hidden'>
             <img
+              className='mx-auto h-[26rem] w-full grayscale object-cover object-top transition duration-500 group-hover:scale-105 group-hover:grayscale-0'
+              src='https://media.licdn.com/dms/image/C5603AQEGhc0_g_GdDw/profile-displayphoto-shrink_400_400/0/1660686858945?e=1684972800&v=beta&t=0e0Z74OdN9uT50sKlwCEjaaUKTq_GtYPzJvIF3tT07Q'
+              alt='woman'
+              loading='lazy'
+              width='640'
+              height='805'
+            />
+            <div className='absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0'>
+              <div>
+                <h4 className='text-xl font-semibold text-gray-700'>
+                  Guillermo Salles
+                </h4>
+                <span className='block text-sm text-gray-500'>
+                  CFO & Co-Founder
+                </span>
+              </div>
+              <p className='mt-8 text-gray-600'>
+                “No permitas que el miedo al fracaso te detenga en tu búsqueda
+                del éxito; la perseverancia es la clave para alcanzar tus
+                metas.” - Séneca
+              </p>
+            </div>
+          </div>
+          <div className='group relative  space-y-6 overflow-hidden'>
+            <img
               className='mx-auto h-[26rem] w-full grayscale object-cover object-top ransition duration-500 group-hover:scale-105 group-hover:grayscale-0'
               src='https://media.licdn.com/dms/image/C5603AQEjLB3rfxi88w/profile-displayphoto-shrink_400_400/0/1660959514582?e=1684972800&v=beta&t=zO1SUj_vqCxpgCTEx9aIOCEfSWkIGIIehW0AC6VT9ig'
               alt='woman'
@@ -58,31 +83,6 @@ export default function Team() {
               <p className='mt-8 text-white'>
                 Quae labore quia tempora dolor impedit. Possimus, sint ducimus
                 ipsam?
-              </p>
-            </div>
-          </div>
-          <div className='group relative  space-y-6 overflow-hidden'>
-            <img
-              className='mx-auto h-[26rem] w-full grayscale object-cover object-top transition duration-500 group-hover:scale-105 group-hover:grayscale-0'
-              src='https://media.licdn.com/dms/image/C5603AQEGhc0_g_GdDw/profile-displayphoto-shrink_400_400/0/1660686858945?e=1684972800&v=beta&t=0e0Z74OdN9uT50sKlwCEjaaUKTq_GtYPzJvIF3tT07Q'
-              alt='woman'
-              loading='lazy'
-              width='640'
-              height='805'
-            />
-            <div className='absolute bottom-0 inset-x-0 h-max mt-auto px-8 py-6 bg-white translate-y-24 transition duration-300 ease-in-out group-hover:translate-y-0'>
-              <div>
-                <h4 className='text-xl font-semibold text-gray-700'>
-                  Guillermo Salles
-                </h4>
-                <span className='block text-sm text-gray-500'>
-                  CFO- Co-Founder
-                </span>
-              </div>
-              <p className='mt-8 text-gray-600'>
-                “No permitas que el miedo al fracaso te detenga en tu búsqueda
-                del éxito; la perseverancia es la clave para alcanzar tus
-                metas.” - Séneca
               </p>
             </div>
           </div>
