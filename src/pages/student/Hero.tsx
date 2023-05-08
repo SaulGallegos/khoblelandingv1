@@ -19,7 +19,7 @@ export default function Hero() {
             target='_blank'
             className='inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center rounded-lg border  focus:ring-4  text-white border-gray-700 hover:bg-gray-700 focus:ring-gray-800'
           >
-            Registrame gratis
+            Regístrame gratis
           </a>
         </div>
       </div>

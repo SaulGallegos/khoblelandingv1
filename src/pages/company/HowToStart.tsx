@@ -58,7 +58,7 @@ export default function HowToStart() {
         </svg>
       ),
       title: 'Bienvenido a Khoble',
-      desc: 'Estas listo para re-inventar tu organización?',
+      desc: '¿Estas listo para re-inventar tu organización?',
     },
   ];
 

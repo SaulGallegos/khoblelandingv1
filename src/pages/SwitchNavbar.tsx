@@ -72,7 +72,7 @@ export default function SwitchNavbar({
                 title='Sign up'
                 href='https://web.khoble.com/switch/signup'
               >
-                Registrame gratis
+                Regístrame gratis
               </a>
             </li>
           </ul>
@@ -155,7 +155,7 @@ export default function SwitchNavbar({
                         title='Sign up'
                         target='_blank'
                       >
-                        Registrate gratis
+                        Regístrame gratis
                       </a>
                     </li>
                   </ul>
