@@ -39,7 +39,11 @@ export default function Footer() {
               </h2>
               <ul className='text-gray-400'>
                 <li className='mb-4'>
-                  <a href='#' className='hover:underline '>
+                  <a
+                    href='/TermsAndConditions'
+                    target='_blank'
+                    className='hover:underline '
+                  >
                     Terminos & Condiciones
                   </a>
                 </li>
