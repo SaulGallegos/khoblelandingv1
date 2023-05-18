@@ -56,7 +56,7 @@ export default function Team() {
                   CFO & Co-Founder
                 </span>
               </div>
-              <p className='mt-8 text-gray-600'>
+              <p className='mt-8 text-white'>
                 “No permitas que el miedo al fracaso te detenga en tu búsqueda
                 del éxito; la perseverancia es la clave para alcanzar tus
                 metas.” - Séneca
