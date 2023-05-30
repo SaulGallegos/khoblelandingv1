@@ -5,6 +5,7 @@ import WhyKhoble from './company/WhyKhoble';
 import Banner from './company/Banner';
 import HowToStart from './company/HowToStart';
 import Team from './Team';
+import Pricing from './company/Pricing';
 
 export default function CompanyLanding() {
   return (

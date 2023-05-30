@@ -108,7 +108,7 @@ export default function Team() {
           <div className='group relative  space-y-6 overflow-hidden'>
             <img
               className='mx-auto h-[26rem] w-full grayscale object-cover object-top ransition duration-500 '
-              src='https://media.licdn.com/dms/image/C5603AQEjLB3rfxi88w/profile-displayphoto-shrink_400_400/0/1660959514582?e=1690416000&v=beta&t=3H6QUQkZ-JenVxrI3miMaGflaKJK9A7BtRx7Ema6K3w'
+              src='https://media.licdn.com/dms/image/C5603AQEFDD5M4vFtUg/profile-displayphoto-shrink_800_800/0/1653538393139?e=1691020800&v=beta&t=nY8XqyqVIZyAvbj7205FJIp34Nm9WAez-HrSv3LBjGc'
               loading='lazy'
               width='640'
               height='805'
