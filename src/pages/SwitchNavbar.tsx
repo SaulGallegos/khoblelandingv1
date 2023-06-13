@@ -24,20 +24,7 @@ export default function SwitchNavbar({
               </span>
             </a>
           </li>
-          <li>
-            <a
-              aria-label='Our product'
-              title='Our product'
-              className={`cursor-pointer hover:underline underline-offset-4 font-medium tracking-wide text-${
-                version !== 'company'
-                  ? 'gray-100'
-                  : 'gray-100 underline underline-offset-4'
-              } transition-colors duration-200`}
-              onClick={() => setVersion('company')}
-            >
-              Empresa
-            </a>
-          </li>
+
           <li>
             <a
               aria-label='Our product'
@@ -50,6 +37,20 @@ export default function SwitchNavbar({
               onClick={() => setVersion('student')}
             >
               Estudiante
+            </a>
+          </li>
+          <li>
+            <a
+              aria-label='Our product'
+              title='Our product'
+              className={`cursor-pointer hover:underline underline-offset-4 font-medium tracking-wide text-${
+                version !== 'company'
+                  ? 'gray-100'
+                  : 'gray-100 underline underline-offset-4'
+              } transition-colors duration-200`}
+              onClick={() => setVersion('company')}
+            >
+              Empresa
             </a>
           </li>
         </ul>

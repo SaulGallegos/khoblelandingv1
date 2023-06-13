@@ -4,13 +4,13 @@ import SwitchNavbar from './SwitchNavbar';
 import StudentLanding from './StudentLanding';
 
 export default function Home() {
-  const [version, setVersion] = useState('company');
+  const [version, setVersion] = useState('student');
 
   return (
     <>
       <SwitchNavbar setVersion={setVersion} version={version} />
-      {version === 'company' && <CompanyLanding />}
       {version === 'student' && <StudentLanding />}
+      {version === 'company' && <CompanyLanding />}
     </>
   );
 }
