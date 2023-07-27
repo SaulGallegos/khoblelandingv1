@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Team() {
   return (
     <div className='py-20'>
@@ -15,10 +17,11 @@ export default function Team() {
         <div className='grid gap-6 px-4 sm:px-0 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
           <div className='group relative  space-y-6 overflow-hidden'>
             {/* group-hover:scale-105 group-hover:grayscale-0  */}
-            <img
-              className='mx-auto h-[26rem] w-full grayscale object-cover object-top ransition duration-500 '
-              src='https://media.licdn.com/dms/image/C5603AQF5OX1mItr7Cg/profile-displayphoto-shrink_400_400/0/1644719365492?e=1690416000&v=beta&t=djphWalQmtvEiMzxawBwbkbccBppApd4DwflVmGzIRo'
+            <Image
+              className='mx-auto h-[26rem] w-full grayscale object-cover object-top ransition duration-500'
+              src='/images/team/javier.jpeg'
               loading='lazy'
+              alt='Javier Cordero'
               width='640'
               height='805'
             />
@@ -38,10 +41,11 @@ export default function Team() {
             </div>
           </div>
           <div className='group relative  space-y-6 overflow-hidden'>
-            <img
-              className='mx-auto h-[26rem] w-full grayscale object-cover object-top transition duration-500 '
-              src='https://media.licdn.com/dms/image/C5603AQEGhc0_g_GdDw/profile-displayphoto-shrink_400_400/0/1660686858945?e=1690416000&v=beta&t=gmY6JxmHZ68a4nSl8hHcoVf01dGx0Ev4V2bMpuCdb8U'
+            <Image
+              className='mx-auto h-[26rem] w-full grayscale object-cover object-top ransition duration-500'
+              src='/images/team/memo.jpeg'
               loading='lazy'
+              alt='Guillermo Salles'
               width='640'
               height='805'
             />
@@ -61,10 +65,11 @@ export default function Team() {
             </div>
           </div>
           <div className='group relative  space-y-6 overflow-hidden'>
-            <img
-              className='mx-auto h-[26rem] w-full grayscale object-cover object-top ransition duration-500 '
-              src='https://media.licdn.com/dms/image/C5603AQEjLB3rfxi88w/profile-displayphoto-shrink_400_400/0/1660959514582?e=1690416000&v=beta&t=3H6QUQkZ-JenVxrI3miMaGflaKJK9A7BtRx7Ema6K3w'
+            <Image
+              className='mx-auto h-[26rem] w-full grayscale object-cover object-top ransition duration-500'
+              src='/images/team/juan.jpeg'
               loading='lazy'
+              alt='Juan Hecht'
               width='640'
               height='805'
             />
@@ -84,10 +89,11 @@ export default function Team() {
             </div>
           </div>
           <div className='group relative  space-y-6 overflow-hidden'>
-            <img
-              className='mx-auto h-[26rem] w-full grayscale object-cover object-top ransition duration-500 '
-              src='https://media.licdn.com/dms/image/C4E03AQGyhz3YiHwuHA/profile-displayphoto-shrink_800_800/0/1578076121709?e=1690416000&v=beta&t=4L7FY3dFH_AI_ukVIXeS-G9GpwG1Hml-LLsL2OfGihg'
+            <Image
+              className='mx-auto h-[26rem] w-full grayscale object-cover object-top ransition duration-500'
+              src='/images/team/saul.jpeg'
               loading='lazy'
+              alt='Saul Gallegos'
               width='640'
               height='805'
             />
@@ -106,10 +112,11 @@ export default function Team() {
           </div>
 
           <div className='group relative  space-y-6 overflow-hidden'>
-            <img
-              className='mx-auto h-[26rem] w-full grayscale object-cover object-top ransition duration-500 '
-              src='https://media.licdn.com/dms/image/C5603AQEFDD5M4vFtUg/profile-displayphoto-shrink_800_800/0/1653538393139?e=1691020800&v=beta&t=nY8XqyqVIZyAvbj7205FJIp34Nm9WAez-HrSv3LBjGc'
+            <Image
+              className='mx-auto h-[26rem] w-full grayscale object-cover object-top ransition duration-500'
+              src='/images/team/jaime.jpeg'
               loading='lazy'
+              alt='Jaime Lopez-Hidalgo'
               width='640'
               height='805'
             />
@@ -129,10 +136,11 @@ export default function Team() {
             </div>
           </div>
           <div className='group relative  space-y-6 overflow-hidden'>
-            <img
-              className='mx-auto h-[26rem] w-full grayscale object-cover object-top ransition duration-500 '
-              src='https://media.licdn.com/dms/image/D5603AQFeFSScRHD5wA/profile-displayphoto-shrink_400_400/0/1687369199228?e=1693440000&v=beta&t=qDxgd2mb1djufKnF0v16uxd2JRS7T-ybWzqcvJZ9dhc'
+            <Image
+              className='mx-auto h-[26rem] w-full grayscale object-cover object-top ransition duration-500'
+              src='/images/team/esteban.jpeg'
               loading='lazy'
+              alt='Esteban Ortiz'
               width='640'
               height='805'
             />
@@ -152,10 +160,11 @@ export default function Team() {
             </div>
           </div>
           <div className='group relative  space-y-6 overflow-hidden'>
-            <img
-              className='mx-auto h-[26rem] w-full grayscale object-cover object-top transition duration-500 '
-              src='https://media.licdn.com/dms/image/D4D03AQElpaoTU9AvBQ/profile-displayphoto-shrink_800_800/0/1683212109142?e=1688601600&v=beta&t=xzD6WJ0bXQzTeALYOsIvpVcP9FW-b3bWnuFkLNWl7qA'
+            <Image
+              className='mx-auto h-[26rem] w-full grayscale object-cover object-top ransition duration-500'
+              src='/images/team/nic.jpeg'
               loading='lazy'
+              alt='Nicolas Levy'
               width='640'
               height='805'
             />

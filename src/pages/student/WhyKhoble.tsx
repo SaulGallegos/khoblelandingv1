@@ -7,22 +7,11 @@ export default function WhyKhoble() {
             ¿Por qué Khoble?
           </h2>
           <p className='mb-4'>
-            No somos solo una startup; estamos aquí para remodelar el mercado
-            laboral tal como lo conocemos. Nuestro objetivo es crear un entorno
-            colaborativo en el que las empresas y los colaboradores se unan para
-            garantizar la satisfacción de ambas partes, en lugar de solo una. De
-            un lado queremos ayudar a los estudiantes a ir más allá de
-            simplemente seguir un proceso para conseguir un empleo y, en cambio,
-            brindarles una experiencia que les permita descubrir en qué son
-            buenos, recibir el salario que merecen y, lo más importante,
-            encontrar un trabajo que realmente les guste.
-          </p>
-          <p>
-            Paralelamente, apoyamos a las empresas en su camino hacia un enfoque
-            más centrado en las personas, desmantelando la burocracia y
-            empoderando a los colaboradores para liberarse de las trayectorias
-            profesionales tradicionales. Esto lleva a la creación de
-            organizaciones más fuertes y cohesionadas.
+            Queremos hacer un lugar donde las empresas y los trabajadores
+            trabajen juntos para estar contentos. No solo queremos ayudar a los
+            estudiantes a encontrar empleo, sino también darles una experiencia
+            que los ayude a descubrir sus talentos, recibir un buen salario y
+            encontrar un trabajo que les guste de verdad.
           </p>
         </div>
         <div className='grid grid-cols-2 gap-4 mt-8'>
