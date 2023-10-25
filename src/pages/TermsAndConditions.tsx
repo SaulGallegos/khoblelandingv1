@@ -1,21 +1,21 @@
 export default function TermsAndConditions() {
   return (
-    <div>
+    <div className="py-4 px-6 md:px-32 lg:px-72 p-parent">
       <p className='text-xl text-gray-900 font-semibold text-center'>
-        AVISO DE PRIVACIDAD DESARROLLOS KHOBLE
+        AVISO DE PRIVACIDAD DESARROLLOS Koble
       </p>
       <p className='text-xl text-gray-800 font-semibold text-center'>Proemio</p>
       <p className='text-x text-gray-600 '>
-        DESARROLLOS KHOBLE, SAPI DE CV, con domicilio en (DOMICILIO), se obliga
+        DESARROLLOS Koble, SAPI DE CV, con domicilio en (DOMICILIO), se obliga
         a cumplir con la integridad, privacidad y protección de los datos
         personales de los Usuarios que acceden o hacen uso de cualquiera de las
-        páginas web y sitios móviles que integran el sitio www.khoble.com (en lo
+        páginas web y sitios móviles que integran el sitio www.Koble.com (en lo
         sucesivo el “Sitio”). El término “Usuario” o “Usuarios” se refiere a
         todos aquellos individuos que acceden y hacen uso del Sitio y/o sus
         servicios.
       </p>
       <p className='text-x text-gray-600 '>
-        Mediante el presente Aviso de Privacidad, DESARROLLOS KHOBLE, SAPI DE CV
+        Mediante el presente Aviso de Privacidad, DESARROLLOS Koble, SAPI DE CV
         da a conocer a los Usuarios las condiciones y protocolos mediante los
         cuales se recolectarán y tratarán ciertos datos personales. La
         información contenida en el presente Aviso de Privacidad es emitida de
@@ -25,14 +25,14 @@ export default function TermsAndConditions() {
       </p>
       <p className='text-x text-gray-600 '>
         El responsable del tratamiento de los datos personales de los Usuarios
-        será DESARROLLOS KHOBLE, SAPI DE CV, persona moral con domicilio
+        será DESARROLLOS Koble, SAPI DE CV, persona moral con domicilio
         mencionado en el primer párrafo del presente Aviso de Privacidad, quien
         se obliga a conservar los datos personales que se recaben de conformidad
         con los principios de licitud y responsabilidad y en apego a las medidas
         de seguridad aplicables.
       </p>
       <p className='text-x text-gray-600 '>
-        DESARROLLOS KHOBLE, SAPI DE CV (en lo sucesivo denominado “Khoble”)
+        DESARROLLOS Koble, SAPI DE CV (en lo sucesivo denominado “Koble”)
         almacenará y protegerá los datos personales de los Usuarios de
         conformidad con la legislación aplicable y los términos del presente
         Aviso de Privacidad.
@@ -43,7 +43,7 @@ export default function TermsAndConditions() {
         tratarán de manera confidencial.{' '}
       </p>
       <p className='text-x text-gray-600 '>
-        Khoble implementará medidas de seguridad técnicas, físicas y
+        Koble implementará medidas de seguridad técnicas, físicas y
         administrativas apropiadas para proteger los datos personales de los
         Usuarios contra pérdida, uso indebido, alteración, acceso no autorizado
         o divulgación. Estas medidas incluyen, entre otras, el uso de firewalls,
@@ -106,7 +106,7 @@ export default function TermsAndConditions() {
         </li>
       </ol>
       <p className='text-x text-gray-600 '>
-        Khoble no recabará datos considerados como sensibles por la Ley Federal
+        Koble no recabará datos considerados como sensibles por la Ley Federal
         de Protección de Datos Personales en Posesión de los Particulares o
         cualquier legislación aplicable en México.
       </p>
@@ -128,7 +128,7 @@ export default function TermsAndConditions() {
         recomendaciones laborales a los candidatos, Emitir facturas a los
         reclutadores, Los datos personales de los Usuarios serán recabados
         directa o indirectamente, por medio del Sitio, y estos se almacenarán de
-        manera segura en la base de datos electrónica de Khoble, la cual cumple
+        manera segura en la base de datos electrónica de Koble, la cual cumple
         con todos los requisitos establecidos en la legislación aplicable.
       </p>
 
@@ -136,26 +136,26 @@ export default function TermsAndConditions() {
         Transferencias
       </p>
       <p className='text-x text-gray-600 '>
-        Khoble únicamente podrá divulgar los datos personales de los Usuarios a
+        Koble únicamente podrá divulgar los datos personales de los Usuarios a
         socios comerciales (sean personas físicas o morales) que, en virtud de
         los servicios ofrecidos, necesiten conocerlos para cumplir con ellos.
-        Asimismo, Khoble podrá transferir los datos personales de los Usuarios a
+        Asimismo, Koble podrá transferir los datos personales de los Usuarios a
         las autoridades competentes en los casos previstos por la legislación
         aplicable. Las transferencias serán realizadas con todas las medidas de
         seguridad apropiadas, de conformidad con los principios contenidos en la
         Ley Federal de Protección de Datos Personales en Posesión de los
         Particulares, su Reglamento y los lineamientos del presente Aviso de
-        Privacidad. Si el Usuario no desea que Khoble divulgue los datos
+        Privacidad. Si el Usuario no desea que Koble divulgue los datos
         personales a sus socios comerciales, deberá enviar un correo electrónico
-        con su petición al correo electrónico: (correo de contacto). Khoble se
+        con su petición al correo electrónico: (correo de contacto). Koble se
         obliga a responder a dicha comunicación electrónica en un plazo no mayor
         a diez días hábiles. En caso de que ocurra una violación de la seguridad
-        de los datos personales, Khoble seguirá los procedimientos establecidos
+        de los datos personales, Koble seguirá los procedimientos establecidos
         por la legislación aplicable, incluyendo la notificación a los Usuarios
         afectados y las autoridades competentes, en los plazos establecidos por
         la ley aplicable. El Sitio puede incluir enlaces a sitios web de
         terceros. Este Aviso de Privacidad no aplicará a esos sitios web y
-        Khoble no es responsable de las prácticas de privacidad de dichos sitios
+        Koble no es responsable de las prácticas de privacidad de dichos sitios
         web. Los Usuarios deberán revisar los avisos de privacidad de los sitios
         web de terceros antes de proporcionar información personal.
       </p>
@@ -165,14 +165,14 @@ export default function TermsAndConditions() {
       </p>
       <p className='text-x text-gray-600 '>
         Los Usuarios podrán revocar o limitar en cualquier momento el
-        consentimiento otorgado a Khoble para el tratamiento y uso de sus datos
+        consentimiento otorgado a Koble para el tratamiento y uso de sus datos
         personales enviando un correo a: (correo de contacto). Su petición
         deberá ir acompañada de la siguiente información: i) Nombre completo,
         ii) Documento de identificación oficial para comprobar su identidad;
         iii) Domicilio, iv) Dirección de correo electrónico, v) Datos personales
         respecto de los cuales el Usuario desea revocar o limitar su
         consentimiento; y vi) Razón por la cual desea revocar o limitar su
-        consentimiento. Si falta algún dato mencionado anteriormente, Khoble lo
+        consentimiento. Si falta algún dato mencionado anteriormente, Koble lo
         notificará al Usuario dentro de los 5 (cinco) días hábiles posteriores a
         la recepción de la solicitud. El Usuario tendrá 5 (cinco) días hábiles
         para proporcionar la información solicitada, en el supuesto de que no se
@@ -193,7 +193,7 @@ export default function TermsAndConditions() {
         Domicilio, iv) Dirección de correo electrónico, v) Datos personales
         respecto de los cuales el Usuario desea revocar o limitar su
         consentimiento; y vi) Razón por la cual desea revocar o limitar su
-        consentimiento. Si falta algún dato mencionado anteriormente, Khoble lo
+        consentimiento. Si falta algún dato mencionado anteriormente, Koble lo
         notificará al Usuario dentro de los 5 (cinco) días hábiles posteriores a
         la recepción de la solicitud. El Usuario tendrá 5 (cinco) días hábiles
         para proporcionar la información solicitada, en el supuesto de que no se
@@ -206,7 +206,7 @@ export default function TermsAndConditions() {
       <p className='text-x text-gray-600 '>
         Los datos personales proporcionados por los Usuarios serán conservados
         por un periodo de 10 años o hasta que el Usuario solicite su
-        eliminación. Khoble revisa periódicamente la necesidad de conservar los
+        eliminación. Koble revisa periódicamente la necesidad de conservar los
         datos y puede eliminarlos antes si ya no son necesarios para los fines
         establecidos en el presente Aviso de Privacidad. Los datos personales
         serán resguardados, conservados y protegidos de conformidad con la Ley
@@ -218,7 +218,7 @@ export default function TermsAndConditions() {
         Cookies, Web Beacons y Tecnologías Similares
       </p>
       <p className='text-x text-gray-600 '>
-        Khoble podrá utilizar tecnologías como cookies, web beacons y otras
+        Koble podrá utilizar tecnologías como cookies &#40;de manera automática&#41;, web beacons y otras
         tecnologías de rastreo que permiten cumplir con las finalidades
         establecidas en el presente Aviso de Privacidad. Dichos archivos
         permiten al prestador de servicios de internet detectar y “recordar”
@@ -233,7 +233,7 @@ export default function TermsAndConditions() {
         Cambios al Aviso de Privacidad
       </p>
       <p className='text-x text-gray-600 '>
-        En caso de que Khoble llegase a modificar el presente Aviso de
+        En caso de que Koble llegase a modificar el presente Aviso de
         Privacidad, el Usuario podrá acceder a dichas modificaciones a través
         del Sitio en el enlace de “Aviso de Privacidad”.
       </p>

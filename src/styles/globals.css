@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Terms & Conditions */
+:root {
+    --vertical-padding: 20px;
+}
+
+.p-parent>p {
+    padding: var(--vertical-padding) 0 var(--vertical-padding) 0; /* top right bottom left */
+}
+
+.p-parent>ol {
+    padding-left: calc(var(--vertical-padding) * 2);
+}
