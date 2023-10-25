@@ -2,20 +2,20 @@ export default function TermsAndConditions() {
   return (
     <div className="py-4 px-6 md:px-32 lg:px-72 p-parent">
       <p className='text-xl text-gray-900 font-semibold text-center'>
-        AVISO DE PRIVACIDAD DESARROLLOS KOBLE
+        AVISO DE PRIVACIDAD DESARROLLOS KHOBLE
       </p>
       <p className='text-xl text-gray-800 font-semibold text-center'>Proemio</p>
       <p className='text-x text-gray-600 '>
-        DESARROLLOS KOBLE, SAPI DE CV, con domicilio en (DOMICILIO), se obliga
+        DESARROLLOS KHOBLE, SAPI DE CV, con domicilio en (DOMICILIO), se obliga
         a cumplir con la integridad, privacidad y protección de los datos
         personales de los Usuarios que acceden o hacen uso de cualquiera de las
-        páginas web y sitios móviles que integran el sitio www.Koble.com (en lo
+        páginas web y sitios móviles que integran el sitio www.findkoble.com (en lo
         sucesivo el “Sitio”). El término “Usuario” o “Usuarios” se refiere a
         todos aquellos individuos que acceden y hacen uso del Sitio y/o sus
         servicios.
       </p>
       <p className='text-x text-gray-600 '>
-        Mediante el presente Aviso de Privacidad, DESARROLLOS KOBLE, SAPI DE CV
+        Mediante el presente Aviso de Privacidad, DESARROLLOS KHOBLE, SAPI DE CV
         da a conocer a los Usuarios las condiciones y protocolos mediante los
         cuales se recolectarán y tratarán ciertos datos personales. La
         información contenida en el presente Aviso de Privacidad es emitida de
@@ -25,14 +25,14 @@ export default function TermsAndConditions() {
       </p>
       <p className='text-x text-gray-600 '>
         El responsable del tratamiento de los datos personales de los Usuarios
-        será DESARROLLOS KOBLE, SAPI DE CV, persona moral con domicilio
+        será DESARROLLOS KHOBLE, SAPI DE CV, persona moral con domicilio
         mencionado en el primer párrafo del presente Aviso de Privacidad, quien
         se obliga a conservar los datos personales que se recaben de conformidad
         con los principios de licitud y responsabilidad y en apego a las medidas
         de seguridad aplicables.
       </p>
       <p className='text-x text-gray-600 '>
-        DESARROLLOS KOBLE, SAPI DE CV (en lo sucesivo denominado “Koble”)
+        DESARROLLOS KHOBLE, SAPI DE CV (en lo sucesivo denominado “Koble”)
         almacenará y protegerá los datos personales de los Usuarios de
         conformidad con la legislación aplicable y los términos del presente
         Aviso de Privacidad.
