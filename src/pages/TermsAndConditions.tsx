@@ -2,7 +2,7 @@ export default function TermsAndConditions() {
   return (
     <div className="py-4 px-6 md:px-32 lg:px-72 p-parent">
       <p className='text-xl text-gray-900 font-semibold text-center'>
-        AVISO DE PRIVACIDAD DESARROLLOS Koble
+        AVISO DE PRIVACIDAD DESARROLLOS KOBLE
       </p>
       <p className='text-xl text-gray-800 font-semibold text-center'>Proemio</p>
       <p className='text-x text-gray-600 '>
